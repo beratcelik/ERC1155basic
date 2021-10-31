@@ -1,0 +1,28 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server --inline --content-base src",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "start": "webpack serve --open"
+
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.6.0",
+    "webpack": "^4.28.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.5.1",
+    "util": "^0.12.4",
+    "web3": "^1.0.0-beta.37"
+  },
+  "main": "webpack.config.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
